@@ -16,16 +16,6 @@ const Navbar = () => {
     setMobileMenuOpen(false);
   };
 
-  const scrollToWhatWeDo = () => {
-    // Check if already on the "whatwedo" route
-    if (location.pathname !== '/whatwedo') {
-      scroll.scrollTo('whatwedo', {
-        duration: 800,
-        smooth: 'easeInOutQuart',
-      });
-    }
-    closeMobileMenu();
-  };
 
   return (
     <div className={`flex justify-between items-center w-full z-[500] pl-[20px] pr-[20px] md:pl-[100px] md:pr-[100px] bg-[#0a3a83] fixed`}>
@@ -68,7 +58,7 @@ const Navbar = () => {
             <Link to="/" onClick={closeMobileMenu}>
              
                 <li className='hover:text-orange-500 hover:underline underline-offset-2 cursor-pointer'>
-                  What we do
+                 Home
                 </li>
               
             </Link>
