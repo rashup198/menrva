@@ -5,9 +5,7 @@ import Mission from './Mission';
 import Special from './special';
 import Services from './Services';
 import OurClients from './OurClients';
-// import WhyUs from './WhyUs';
 import Collaborate from './Collaborate';
-// import WhatWeDo from './whatWeDo';
  import Footer from './Footer';
 
 const Hero = () => {
@@ -48,8 +46,6 @@ const Hero = () => {
         <Special></Special>
         <Services></Services>
          <OurClients></OurClients>
-         {/* <WhyUs></WhyUs>
-         <WhatWeDo></WhatWeDo> */}
          <Collaborate></Collaborate> 
          <Footer></Footer>
     </div>
