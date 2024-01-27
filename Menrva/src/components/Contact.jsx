@@ -40,9 +40,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="">
+    <div className="bg-[rgb(233,232,232)]">
     <div className="min-h-screen flex items-center justify-center  mb-[50px]">
-      <div className="bg-[rgb(233,232,232)] p-8 rounded-md shadow-md w-full md:w-2/3 lg:w-1/2 xl:w-1/2">
+      <div className="bg-[#eaeffa] p-8 rounded-md shadow-md w-full md:w-2/3 lg:w-1/2 xl:w-1/2">
         <h1 className="text-4xl text-center   mb-[30px] text-[#5e17EB] underline underline-offset-8 decoration-[#5e17EB]">CONTACT US</h1>
         <p className='text-xl text-center   mb-[30px] text-[#000000] '>Please fill the form below and we will get back to you as soon as possible.</p>
         <form onSubmit={handelSubmit}>
